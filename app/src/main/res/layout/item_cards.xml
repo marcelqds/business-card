@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_margin="16dp"
+    android:minHeight="30dp"
+    android:layout_marginVertical="8dp"
+    tools:ignore="MissingConstraints"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:gravity="start"
+            >
+
+            <TextView
+                android:id="@+id/tvName"
+                android:textStyle="bold"
+                tools:text="Tchelo"
+                style="@style/style_item_card"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tvPhoneNumber"
+                style="@style/style_item_card"
+                tools:text="11986319920"
+                />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                style="@style/style_item_card"
+                tools:text="text@gmail.com"
+                 />
+
+            <TextView
+                android:id="@+id/tvCompany"
+                style="@style/style_item_card"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                tools:text="Company"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CartaoVisitaBootCamp</string>
+    <string name="txtTitle">Cartao de Visita</string>
+    <string name="txtAdd">Abre a tela para adiciona um novo cartão de visita</string>
+    <string name="txtClose">Fechar a tela</string>
+    <string name="lbName">Informe o nome</string>
+    <string name="txtTitleAdd">Novo Cartão</string>
+    <string name="lbPhoneNumber">Informe seu numero de telefone</string>
+    <string name="lbEmail">Informe seu email</string>
+    <string name="lbCompany">Informe a empresa</string>
+    <string name="lbColor">Informe uma cor</string>
+    <string name="txtAddNew">Salvar</string>
+    <string name="txtSuccess">Usuário inserido com sucesso!</string>
+    <string name="txtLbShae">Compartilhar</string>
+</resources>
